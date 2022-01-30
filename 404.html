@@ -1,8 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <body style="text-align:center;background-color:rgb(184, 236, 184)">
-        <h1 style="color:rgb(15, 94, 114)">Error 404</h1>
-        <a href="https://67444.github.io">Return to main page</a>
-        <p>The page you were looking for is not available. <br> Check that your URL is right or click above to return to home. <br> This site is still under construction, so check back later.</p>
+    <head> 
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            const pages = [SpeedCalcJS, PWATest, origins-smp, GradeCalc, UIZ, VOTW, holidays]
+            function formChanged()
+            {
+                var pagename = document.getElementById("pagename").value;
+                console.log(pagename)
+                if (pagename="pages") {
+                    document.getElementById("yesno").innerHTML = "existence confirmed"
+                }
+                
+            }
+        </script>
+    </head>
+    <body style="text-align:center;background-color:#29a2c7;font-family: monospace;text-shadow: #4ad5ff;color:#15361b">
+        <h1 style="color:rgb(15, 94, 114);font-size:xxx-large;text-align:left">Error <i>4-0-4</i></h1>
+        <div style="text-align: left;"><a href="https://67444.github.io">Return to main page</a>
+        <p>The page you were looking for is not available. <br> Check that your URL is right or click above to return to home. <br> This site <i>is</i> still under construction, so check back later.</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3 style="text-align: left;">Tools:</h3>
+        <p style="text-align: left;">Does this page exist?</p>
+        <form style="text-align: left;">
+            <label for="pagename">Page Name (pagename):</label>
+            <input type="text" id="pagename">
+            <input type="button" label="Submit" onClick="formChanged()">
+        </form>
+        <div id="yesno" style="text-align: left;"></div>
     </body>
 </html>
