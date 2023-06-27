@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    font-family:'Gabriela','Agdasima', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:aliceblue;
+    text-align:left;
+}
+
+h1 {
+    font-style:bold;
+    font-size:xx-large;
+    font-family:'Gabriela'
+}
+
+.items {
+    font-size:x-large;
+    font-family:'Playfair', Georgia, Times, 'Times New Roman', serif;
+    color:pink;
+    font-style:bold;
+}
+
+.items:hover {
+    color:aquamarine;
+    font-family:'Playfair', Georgia, Times, 'Times New Roman', serif;
+    font-size:xx-large;
+    font-style:italic;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   /* Height of the footer */
+}
